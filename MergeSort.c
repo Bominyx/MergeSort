@@ -75,7 +75,7 @@ double *fuelle_feld(int n) {
 
 int main() {
     for (int i = 1; i <= 10; ++i) {
-        //Es wird Speicher in 50 Millionen Schritten reserviert, bis zu 500 Millionen 
+        //Es wird Speicher in 5 Millionen Schritten reserviert, bis zu 50 Millionen 
         int size = 5000000 * i;
         double *array = malloc((size + 1) * sizeof(double));
         array = fuelle_feld(size);
